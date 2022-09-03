@@ -55,7 +55,7 @@ void inic(Seguro_social* a)
     cout << "Cedula: ";
     cin>>a -> cedula;
     cout << "Direccion: ";
-    cin.clear(); cin.sync(); //tiene algo que ver con limpiar el buffer para usar la funcion getline y la funcion cin, no sé a qué se refería
+    cin.clear(); cin.sync(); //tiene algo que ver con limpiar el buffer para usar la funcion getline y la funcion cin, no sÃ© a quÃ© se referÃ­a
     getline(cin, a -> direccion);
     cout << "Asegurado directo: ";
     string dic;
